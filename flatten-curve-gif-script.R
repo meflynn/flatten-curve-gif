@@ -41,7 +41,7 @@ plot <- ggplot(data = df) +
         axis.text.x = element_blank(),
         plot.title = element_text(face = "bold", size = 16)) +
   labs(title = "Flatten the Curve",
-       subtitle = "Delaying the spread of the disease matters a lot",
+       subtitle = "Delaying the spread of the disease matters a lot for helping medical providers meet the crisis",
        x = "Days",
        y = "Number of cases") +
   transition_states(states = z,
